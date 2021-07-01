@@ -90,180 +90,102 @@ p {
 .gvActive{
     display: block;
 }
-
-
-.charmanderPic {
-    background-image: url(/Images/Kanto/004\ Charmander.webp);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 300px;
-    height: 300px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+.cNormal{
+    display: none;
 }
-.charmeleonPic {
-    background-image: url(/Images/Kanto/005\ Charmeleon.webp);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 300px;
-    height: 300px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+.cShiny{
+    display: none;
 }
-.charazardPic {
-    background-image: url(/Images/Kanto/006\ Charizard.webp);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 300px;
-    height: 300px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+.cActive{
+    display: block;
 }
-.megaCharazardXPic{
-    background-image: url(/Images/Kanto/006\ Mega\ X\ Charizard.webp);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 300px;
-    height: 300px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+.clNormal{
+    display: none;
 }
-.megaCharazardYPic{
-    background-image: url(/Images/Kanto/006\ Mega\ Y\ Charizard.webp);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 300px;
-    height: 300px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+.clShiny{
+    display: none;
 }
-.giCharazardPic{
-    background-image: url(/Images/Kanto/006\ Gigantamax\ Charizard.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 300px;
-    height: 300px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+.clActive{
+    display: block;
 }
-
-.squirtlePic {
-    background-image: url(/Images/Kanto/007\ Squirtle.webp);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 300px;
-    height: 300px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+.chaNormal{
+    display: none;
 }
-.wartortlePic {
-    background-image: url(/Images/Kanto/008\ Wartortle.webp);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 300px;
-    height: 300px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+.chaShiny{
+    display: none;
 }
-.blastoisePic {
-    background-image: url(/Images/Kanto/009\ Blastoise.webp);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 300px;
-    height: 300px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+.chaActive{
+    display: block;
 }
-.megaBlastoisePic {
-    background-image: url(/Images/Kanto/009\ Mega\ Blastoise.webp);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 300px;
-    height: 300px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+.chaXNormal{
+    display: none;
 }
-.giBlastoisePic {
-    background-image: url(/Images/Kanto/009\ Gigantamax\ Blastoise.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 300px;
-    height: 300px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+.chaXShiny{
+    display: none;
 }
-
-#backgroundtreecko {
-    background-image: linear-gradient(to bottom right, rgb(0, 255, 0), rgb(7, 63, 0));
+.chaXActive{
+    display: block;
 }
-
-.treeckopictwo {
-    background-image: url(/Images/Hoenn/252\ Treecko.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 300px;
-    height: 300px;
+.chaYNormal{
+    display: none;
 }
-
-.treeckopictwo:hover {
-    background-image: url(/Images/Hoenn/252\ Treecko\ Shiny.png);
-    transform: rotateY(180deg);
+.chaYShiny{
+    display: none;
 }
-
-.grovylepic {
-    background-image: url(/Images/Hoenn/253\ Grovyle.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 300px;
-    height: 300px;
+.chaYActive{
+    display: block;
 }
-
-.grovylepic:hover {
-    background-image: url(/Images/Hoenn/253\ Grovyle\ shiny.png);
-    transform: rotateY(180deg);
+.gChaNormal{
+    display: none;
 }
-
-.sceptilepic {
-    background-image: url(/Images/Hoenn/254\ Sceptile\ .webp);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 300px;
-    height: 300px;
+.gChaShiny{
+    display: none;
 }
-.sceptilepic:hover {
-    background-image: url(/Images/Hoenn/254\ Sceptile\ Shiny.png);
-    transform: rotateY(180deg);
+.gChaActive{
+    display: block;
 }
-.megasceptilepic {
-    background-image: url(/Images/Hoenn/254\ Mega\ Sceptile\ .webp);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 300px;
-    height: 300px;
+.sNormal{
+    display: none;
+}
+.sShiny{
+    display: none;
+}
+.sActive{
+    display: block;
+}
+.wNormal{
+    display: none;
+}
+.wShiny{
+    display: none;
+}
+.wActive{
+    display: block;
+}
+.bNormal{
+    display: none;
+}
+.bShiny{
+    display: none;
+}
+.bActive{
+    display: block;
+}
+.mbNormal{
+    display: none;
+}
+.mbShiny{
+    display: none;
+}
+.mbActive{
+    display: block;
+}
+.gbNormal{
+    display: none;
+}
+.gbShiny{
+    display: none;
+}
+.gbActive{
+    display: block;
 }
