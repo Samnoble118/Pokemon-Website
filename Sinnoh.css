@@ -1,0 +1,66 @@
+
+.kantoBody {
+    background-image: linear-gradient(to bottom right, blue, rgb(0, 255, 242));
+}
+
+.logo {
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: flex;
+}
+
+.kanto {
+    margin: 5px 10px 20px 0;
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+    font-size: 30px;
+    color: white
+}
+
+.t-header {
+    background-color: black;
+    display: block;
+    color: white;
+    margin: 0px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.pokemonInfo {
+    background-color: rgba(0, 255, 255, 0.438);
+    font-family: 'prompt', sans-serif;
+    margin: 0px;
+}
+.pokemonInfo p{
+    background-color: rgba(0, 0, 255, 0.363);
+    color: white;
+}
+
+p {
+    margin: 0px;
+}
+.bulbasaur{
+    text-align: center;
+}
+.pokePic {
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+}
+h4{
+    font-family: 'Prompt', sans-serif;
+    font-size: 20px;
+    color: white;
+    margin: 0;
+}
+.normal{
+    display: none;
+}
+.shiny{
+    display: none;
+}
+.active{
+    display: block;
+}
