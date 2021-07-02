@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+button{
+    border: none;
+}
+
 .logo {
     height: 200px;
     margin-left: auto;
@@ -23,7 +27,6 @@ form input,
 form button{
     padding: 0.5rem;
     font-size: 2rem;
-    border: none;
     background: white ;
 }
 form button{
@@ -76,7 +79,21 @@ nav p{
     }
 }
 .pokeball img{
-    width: 30%;
+    width: 80%;
+    margin: 0;
+}
+
+#pokeballBtn{
+    color: #ffcb05;
+    background: #003a70;
+    cursor: pointer;
+    transition: 0.3s ease;
+    height: 50px;
+    width: 50px;
+}
+#pokeballBtn:hover{
+    color: #003a70;
+    background: #ffcb05;
 }
 
 ul {
