@@ -18,6 +18,7 @@
     text-align: center;
     color: white;
 }
+
 form input,
 form button{
     padding: 0.5rem;
@@ -56,9 +57,23 @@ nav{
     padding-right: 30px;
     padding-left: 30px;
 }
+nav p{
+    font-family: 'prompt', sans-serif;
+    color: white;
+    text-align: left;
+}
 
 .pokeball {
     width: 15%;
+}
+@media only screen and (max-width: 600px){
+    nav{
+        background-color: rgba(255, 0, 0, 0);
+    }
+    .pokeball{
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 .pokeball img{
     width: 30%;
@@ -75,6 +90,11 @@ ul {
     transition: all 0.8s ease;
     position: relative;
     color: white;
+}
+@media only screen and (max-width: 600px) {
+    #menu,#menu2,#menu3,#menu4,#menu5,#menu6,#menu7,#menu8{
+        display: none;
+    }
 }
 
 .menu-ctn li:hover{
@@ -241,6 +261,11 @@ h3{
     padding: 20px;
     font-size: 20px;
     text-align: center;
+  }
+  @media only screen and (max-width: 600px){
+      .grid-container{
+          display: block;
+      }
   }
 
 .deximg img {

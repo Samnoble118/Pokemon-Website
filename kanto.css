@@ -33,6 +33,10 @@
     font-family: 'prompt', sans-serif;
     margin: 0px;
 }
+.pokemonInfo p{
+    background-color: rgba(172, 255, 47, 0.185);
+    color: white;
+}
 
 p {
     margin: 0px;
