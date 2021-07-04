@@ -1,6 +1,6 @@
 
 .kantoBody {
-    background-image: linear-gradient(to bottom right, yellow, blue);
+    background-image: linear-gradient(to bottom right, red, orange);
 }
 
 .logo {
@@ -29,12 +29,12 @@
 }
 
 .pokemonInfo {
-    background-color: rgba(153, 205, 50, 0.452);
+    background-color: rgba(255, 68, 0, 0.466);
     font-family: 'prompt', sans-serif;
     margin: 0px;
 }
 .pokemonInfo p{
-    background-color: rgba(95, 143, 0, 0.459);
+    background-color: rgba(255, 196, 86, 0.445);
     color: white;
 }
 
