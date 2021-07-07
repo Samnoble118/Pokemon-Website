@@ -79,9 +79,10 @@ nav{
 }
 
 @media screen and (max-width: 768px) {
-    body{
+    .appContainer{
         overflow-x: hidden;
-    }
+        position: relative;
+    } 
     .nav-links{
        position: absolute;
        right: 0px;
