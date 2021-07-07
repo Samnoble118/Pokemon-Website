@@ -17,6 +17,7 @@
 </head>
 <body id="background">
 
+<div class="appContainer">
 <nav>
     <div class="logoGen">
         <img src="Images/Pokeball.png" alt="Pokeball"><h4>Pokedex</h4>
@@ -68,7 +69,8 @@
                 type="text" 
                 id="searchBar" 
                 name="searchBar"
-                placeholder="Search Pokemon">
+                placeholder="Search Pokemon"
+                onchange="openPage()">
         <button tabindex="2" 
                 type="submit">
             <i class="fas fa-search-plus"></i>
@@ -260,5 +262,6 @@
     
 
     <script src="main.js" type="text/javascript"></script>
+</div>
 </body> 
 </html>

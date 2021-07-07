@@ -8,6 +8,8 @@ button{
     border: none;
 }
 
+
+
 .logo {
     height: 200px;
     margin-left: auto;
@@ -106,9 +108,12 @@ nav{
 }
 
 @media screen and (max-width: 768px) {
-    body{
+
+    .appContainer{
         overflow-x: hidden;
-    }
+        position: relative;
+    } 
+
     .nav-links{
        position: absolute;
        right: 0px;
@@ -182,6 +187,8 @@ h3{
           display: block;
       }
   }
+
+
 
 .deximg img {
     width: 10%;

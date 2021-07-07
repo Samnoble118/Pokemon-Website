@@ -22,3 +22,11 @@ const navSlide = () => {
 }
 
 navSlide();
+
+function openPage(){
+    var x = document.getElementById("search").value;
+
+    if (x === "kanto"){
+        window.open("Kanto.html");
+    }
+}
